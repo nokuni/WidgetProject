@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var dayQuote = DayQuoteViewModel()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(dayQuote.quotes.indices, id: \.self) { index in
+            VStack(alignment: .leading) {
+                Text(dayQuote.days[index])
+                    .fontWeight(.bold)
+                    .font(.title3)
+                Text(dayQuote.quotes[index].quote)
+                Text(dayQuote.quotes[index].author)
+                    .italic()
+            }
         }
-        .padding()
     }
 }
 

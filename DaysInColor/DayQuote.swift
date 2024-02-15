@@ -6,16 +6,26 @@
 //
 
 import SwiftUI
+import Utility_Toolbox
 
 class DayQuoteViewModel: ObservableObject {
     
     init() {
-        quotes = try! bundleManager.decodeJSON("quotes.json")
+        Task {
+            quotes = try await apiManager.get(url: url, key: key, htttpHeaderField: header)
+        }
     }
     
-    let bundleManager = BundleManager()
+    let header = "X-Api-Key"
+    let key = "GzYkCyqhvJhHRNvZCCf1zg==nRk95G5p5th91igW"
+    let url = "https://api.api-ninjas.com/v1/quotes?category=happiness"
+    let apiManager = APIManager()
     
     var quotes = [Quote]()
+    
+    var days: [String] {
+        ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    }
     
     var currentDay: String? {
         Date().dayOfWeek()
@@ -45,12 +55,13 @@ class DayQuoteViewModel: ObservableObject {
     }
 }
 
-struct Quote: Codable {
+struct Quote: Codable, Hashable {
     var quote: String
     var author: String
+    var category: String
 }
 
-struct DayQuote {
+struct DayQuote: Hashable {
     var day: String
     var quote: Quote
     var color: Color

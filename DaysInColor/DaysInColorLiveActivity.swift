@@ -24,7 +24,7 @@ struct DaysInColorLiveActivity: Widget {
         ActivityConfiguration(for: DaysInColorAttributes.self) { context in
             // Lock screen/banner UI goes here
             VStack {
-                Text("Hello \(context.state.emoji)")
+                Text("Hello")
             }
             .activityBackgroundTint(Color.cyan)
             .activitySystemActionForegroundColor(Color.black)
@@ -64,7 +64,7 @@ extension DaysInColorAttributes {
 
 extension DaysInColorAttributes.ContentState {
     fileprivate static var smiley: DaysInColorAttributes.ContentState {
-        DaysInColorAttributes.ContentState(emoji: "😀")
+        DaysInColorAttributes.ContentState(emoji: "Hello")
      }
      
      fileprivate static var starEyes: DaysInColorAttributes.ContentState {

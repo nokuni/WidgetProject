@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1CCD9BF0-9572-4A6A-90AB-E1E1F0FBDE4A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3C90E31-1546-46EA-B500-F0E9DC72F342"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/WidgetProject-awvmtbwkjpcqewehhbnswtgynvji/SourcePackages/checkouts/UtilityToolbox/Sources/Utility Toolbox/Models/Managers/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "request(url:value:httpMethod:key:htttpHeaderField:cachePolicy:dateDecodingStrategy:dataDecodingStrategy:keyDecodingStrategy:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E3C90E31-1546-46EA-B500-F0E9DC72F342 - 74dc9a69f84e26ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Utility_Toolbox.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(url: Swift.String, value: Swift.Optional&lt;&#x3c4;_0_0&gt;, httpMethod: Utility_Toolbox.APIManager.HTTPMethod, key: Swift.Optional&lt;Swift.String&gt;, htttpHeaderField: Swift.Optional&lt;Swift.String&gt;, cachePolicy: __C.NSURLRequestCachePolicy, dateDecodingStrategy: Foundation.JSONDecoder.DateDecodingStrategy, dataDecodingStrategy: Foundation.JSONDecoder.DataDecodingStrategy, keyDecodingStrategy: Foundation.JSONDecoder.KeyDecodingStrategy) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "WidgetProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yannchristophemaertens/Library/Developer/Xcode/DerivedData/WidgetProject-awvmtbwkjpcqewehhbnswtgynvji/SourcePackages/checkouts/UtilityToolbox/Sources/Utility%20Toolbox/Models/Managers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  uuid = "E3C90E31-1546-46EA-B500-F0E9DC72F342 - 5f949eee30c8c635"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Utility_Toolbox.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(url: Swift.String, value: Swift.Optional&lt;&#x3c4;_0_0&gt;, httpMethod: Utility_Toolbox.APIManager.HTTPMethod, key: Swift.Optional&lt;Swift.String&gt;, htttpHeaderField: Swift.Optional&lt;Swift.String&gt;, cachePolicy: __C.NSURLRequestCachePolicy, dateDecodingStrategy: Foundation.JSONDecoder.DateDecodingStrategy, dataDecodingStrategy: Foundation.JSONDecoder.DataDecodingStrategy, keyDecodingStrategy: Foundation.JSONDecoder.KeyDecodingStrategy) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "WidgetProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yannchristophemaertens/Library/Developer/Xcode/DerivedData/WidgetProject-awvmtbwkjpcqewehhbnswtgynvji/SourcePackages/checkouts/UtilityToolbox/Sources/Utility%20Toolbox/Models/Managers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

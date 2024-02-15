@@ -11,7 +11,47 @@
 		A846F2922B0E320B00D8CA14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846F2912B0E320B00D8CA14 /* ContentView.swift */; };
 		A846F2942B0E320C00D8CA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A846F2932B0E320C00D8CA14 /* Assets.xcassets */; };
 		A846F2972B0E320C00D8CA14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A846F2962B0E320C00D8CA14 /* Preview Assets.xcassets */; };
+		A846F2A42B0E32A300D8CA14 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A846F2A32B0E32A300D8CA14 /* WidgetKit.framework */; };
+		A846F2A62B0E32A300D8CA14 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A846F2A52B0E32A300D8CA14 /* SwiftUI.framework */; };
+		A846F2A92B0E32A300D8CA14 /* DaysInColorBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846F2A82B0E32A300D8CA14 /* DaysInColorBundle.swift */; };
+		A846F2AB2B0E32A300D8CA14 /* DaysInColorLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846F2AA2B0E32A300D8CA14 /* DaysInColorLiveActivity.swift */; };
+		A846F2AD2B0E32A300D8CA14 /* DaysInColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846F2AC2B0E32A300D8CA14 /* DaysInColor.swift */; };
+		A846F2AF2B0E32A300D8CA14 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846F2AE2B0E32A300D8CA14 /* AppIntent.swift */; };
+		A846F2B12B0E32A400D8CA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A846F2B02B0E32A400D8CA14 /* Assets.xcassets */; };
+		A846F2B52B0E32A400D8CA14 /* DaysInColorExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A846F2A12B0E32A300D8CA14 /* DaysInColorExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A846F2C82B0E501400D8CA14 /* DayQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846F2BB2B0E4B8900D8CA14 /* DayQuote.swift */; };
+		A846F2C92B0E501400D8CA14 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846F2C32B0E4E7500D8CA14 /* DateExtension.swift */; };
+		A846F2CB2B0E513200D8CA14 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = A846F2BD2B0E4BE700D8CA14 /* quotes.json */; };
+		A846F2CD2B0E519200D8CA14 /* DayQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846F2BB2B0E4B8900D8CA14 /* DayQuote.swift */; };
+		A846F2CE2B0E519400D8CA14 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = A846F2BD2B0E4BE700D8CA14 /* quotes.json */; };
+		A846F2CF2B0E519600D8CA14 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846F2C32B0E4E7500D8CA14 /* DateExtension.swift */; };
+		A846F2D12B0E553800D8CA14 /* Utility Toolbox in Frameworks */ = {isa = PBXBuildFile; productRef = A846F2D02B0E553800D8CA14 /* Utility Toolbox */; };
+		A846F2D52B0E55A600D8CA14 /* Utility Toolbox in Frameworks */ = {isa = PBXBuildFile; productRef = A846F2D42B0E55A600D8CA14 /* Utility Toolbox */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A846F2B32B0E32A400D8CA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A846F2842B0E320B00D8CA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A846F2A02B0E32A300D8CA14;
+			remoteInfo = DaysInColorExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A846F2B62B0E32A400D8CA14 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A846F2B52B0E32A400D8CA14 /* DaysInColorExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A846F28C2B0E320B00D8CA14 /* WidgetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +59,18 @@
 		A846F2912B0E320B00D8CA14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A846F2932B0E320C00D8CA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A846F2962B0E320C00D8CA14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A846F2A12B0E32A300D8CA14 /* DaysInColorExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DaysInColorExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A846F2A32B0E32A300D8CA14 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A846F2A52B0E32A300D8CA14 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A846F2A82B0E32A300D8CA14 /* DaysInColorBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysInColorBundle.swift; sourceTree = "<group>"; };
+		A846F2AA2B0E32A300D8CA14 /* DaysInColorLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysInColorLiveActivity.swift; sourceTree = "<group>"; };
+		A846F2AC2B0E32A300D8CA14 /* DaysInColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysInColor.swift; sourceTree = "<group>"; };
+		A846F2AE2B0E32A300D8CA14 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		A846F2B02B0E32A400D8CA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A846F2B22B0E32A400D8CA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A846F2BB2B0E4B8900D8CA14 /* DayQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayQuote.swift; sourceTree = "<group>"; };
+		A846F2BD2B0E4BE700D8CA14 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		A846F2C32B0E4E7500D8CA14 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +78,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A846F2D12B0E553800D8CA14 /* Utility Toolbox in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A846F29E2B0E32A300D8CA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A846F2D52B0E55A600D8CA14 /* Utility Toolbox in Frameworks */,
+				A846F2A62B0E32A300D8CA14 /* SwiftUI.framework in Frameworks */,
+				A846F2A42B0E32A300D8CA14 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				A846F28E2B0E320B00D8CA14 /* WidgetProject */,
+				A846F2A72B0E32A300D8CA14 /* DaysInColor */,
+				A846F2A22B0E32A300D8CA14 /* Frameworks */,
 				A846F28D2B0E320B00D8CA14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				A846F28C2B0E320B00D8CA14 /* WidgetProject.app */,
+				A846F2A12B0E32A300D8CA14 /* DaysInColorExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +133,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A846F2A22B0E32A300D8CA14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A846F2A32B0E32A300D8CA14 /* WidgetKit.framework */,
+				A846F2A52B0E32A300D8CA14 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A846F2A72B0E32A300D8CA14 /* DaysInColor */ = {
+			isa = PBXGroup;
+			children = (
+				A846F2BB2B0E4B8900D8CA14 /* DayQuote.swift */,
+				A846F2BD2B0E4BE700D8CA14 /* quotes.json */,
+				A846F2C32B0E4E7500D8CA14 /* DateExtension.swift */,
+				A846F2A82B0E32A300D8CA14 /* DaysInColorBundle.swift */,
+				A846F2AA2B0E32A300D8CA14 /* DaysInColorLiveActivity.swift */,
+				A846F2AC2B0E32A300D8CA14 /* DaysInColor.swift */,
+				A846F2AE2B0E32A300D8CA14 /* AppIntent.swift */,
+				A846F2B02B0E32A400D8CA14 /* Assets.xcassets */,
+				A846F2B22B0E32A400D8CA14 /* Info.plist */,
+			);
+			path = DaysInColor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +168,42 @@
 				A846F2882B0E320B00D8CA14 /* Sources */,
 				A846F2892B0E320B00D8CA14 /* Frameworks */,
 				A846F28A2B0E320B00D8CA14 /* Resources */,
+				A846F2B62B0E32A400D8CA14 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A846F2D32B0E554300D8CA14 /* PBXTargetDependency */,
+				A846F2B42B0E32A400D8CA14 /* PBXTargetDependency */,
 			);
 			name = WidgetProject;
+			packageProductDependencies = (
+				A846F2D02B0E553800D8CA14 /* Utility Toolbox */,
+			);
 			productName = WidgetProject;
 			productReference = A846F28C2B0E320B00D8CA14 /* WidgetProject.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A846F2A02B0E32A300D8CA14 /* DaysInColorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A846F2B92B0E32A400D8CA14 /* Build configuration list for PBXNativeTarget "DaysInColorExtension" */;
+			buildPhases = (
+				A846F29D2B0E32A300D8CA14 /* Sources */,
+				A846F29E2B0E32A300D8CA14 /* Frameworks */,
+				A846F29F2B0E32A300D8CA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A846F2D72B0E55AC00D8CA14 /* PBXTargetDependency */,
+			);
+			name = DaysInColorExtension;
+			packageProductDependencies = (
+				A846F2D42B0E55A600D8CA14 /* Utility Toolbox */,
+			);
+			productName = DaysInColorExtension;
+			productReference = A846F2A12B0E32A300D8CA14 /* DaysInColorExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +218,9 @@
 					A846F28B2B0E320B00D8CA14 = {
 						CreatedOnToolsVersion = 15.0;
 					};
+					A846F2A02B0E32A300D8CA14 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 				};
 			};
 			buildConfigurationList = A846F2872B0E320B00D8CA14 /* Build configuration list for PBXProject "WidgetProject" */;
@@ -111,11 +232,15 @@
 				Base,
 			);
 			mainGroup = A846F2832B0E320B00D8CA14;
+			packageReferences = (
+				A846F2BF2B0E4C0000D8CA14 /* XCRemoteSwiftPackageReference "UtilityToolbox" */,
+			);
 			productRefGroup = A846F28D2B0E320B00D8CA14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A846F28B2B0E320B00D8CA14 /* WidgetProject */,
+				A846F2A02B0E32A300D8CA14 /* DaysInColorExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +252,16 @@
 			files = (
 				A846F2972B0E320C00D8CA14 /* Preview Assets.xcassets in Resources */,
 				A846F2942B0E320C00D8CA14 /* Assets.xcassets in Resources */,
+				A846F2CE2B0E519400D8CA14 /* quotes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A846F29F2B0E32A300D8CA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A846F2CB2B0E513200D8CA14 /* quotes.json in Resources */,
+				A846F2B12B0E32A400D8CA14 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +272,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A846F2CF2B0E519600D8CA14 /* DateExtension.swift in Sources */,
+				A846F2CD2B0E519200D8CA14 /* DayQuote.swift in Sources */,
 				A846F2922B0E320B00D8CA14 /* ContentView.swift in Sources */,
 				A846F2902B0E320B00D8CA14 /* WidgetProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A846F29D2B0E32A300D8CA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A846F2AB2B0E32A300D8CA14 /* DaysInColorLiveActivity.swift in Sources */,
+				A846F2C92B0E501400D8CA14 /* DateExtension.swift in Sources */,
+				A846F2C82B0E501400D8CA14 /* DayQuote.swift in Sources */,
+				A846F2AF2B0E32A300D8CA14 /* AppIntent.swift in Sources */,
+				A846F2A92B0E32A300D8CA14 /* DaysInColorBundle.swift in Sources */,
+				A846F2AD2B0E32A300D8CA14 /* DaysInColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A846F2B42B0E32A400D8CA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A846F2A02B0E32A300D8CA14 /* DaysInColorExtension */;
+			targetProxy = A846F2B32B0E32A400D8CA14 /* PBXContainerItemProxy */;
+		};
+		A846F2D32B0E554300D8CA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = A846F2D22B0E554300D8CA14 /* Utility Toolbox */;
+		};
+		A846F2D72B0E55AC00D8CA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = A846F2D62B0E55AC00D8CA14 /* Utility Toolbox */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A846F2982B0E320C00D8CA14 /* Debug */ = {
@@ -267,6 +433,7 @@
 		A846F29B2B0E320C00D8CA14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +463,7 @@
 		A846F29C2B0E320C00D8CA14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,6 +484,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yann.WidgetProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A846F2B72B0E32A400D8CA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6DV6C6352;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaysInColor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DaysInColor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yann.WidgetProject.DaysInColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A846F2B82B0E32A400D8CA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6DV6C6352;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaysInColor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DaysInColor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yann.WidgetProject.DaysInColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,7 +565,50 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A846F2B92B0E32A400D8CA14 /* Build configuration list for PBXNativeTarget "DaysInColorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A846F2B72B0E32A400D8CA14 /* Debug */,
+				A846F2B82B0E32A400D8CA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A846F2BF2B0E4C0000D8CA14 /* XCRemoteSwiftPackageReference "UtilityToolbox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nokuni/UtilityToolbox";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A846F2D02B0E553800D8CA14 /* Utility Toolbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A846F2BF2B0E4C0000D8CA14 /* XCRemoteSwiftPackageReference "UtilityToolbox" */;
+			productName = "Utility Toolbox";
+		};
+		A846F2D22B0E554300D8CA14 /* Utility Toolbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A846F2BF2B0E4C0000D8CA14 /* XCRemoteSwiftPackageReference "UtilityToolbox" */;
+			productName = "Utility Toolbox";
+		};
+		A846F2D42B0E55A600D8CA14 /* Utility Toolbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A846F2BF2B0E4C0000D8CA14 /* XCRemoteSwiftPackageReference "UtilityToolbox" */;
+			productName = "Utility Toolbox";
+		};
+		A846F2D62B0E55AC00D8CA14 /* Utility Toolbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A846F2BF2B0E4C0000D8CA14 /* XCRemoteSwiftPackageReference "UtilityToolbox" */;
+			productName = "Utility Toolbox";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A846F2842B0E320B00D8CA14 /* Project object */;
 }

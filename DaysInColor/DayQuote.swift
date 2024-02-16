@@ -11,11 +11,16 @@ import Utility_Toolbox
 class DayQuoteViewModel: ObservableObject {
     
     init() {
-        Task {
-            quotes = try await apiManager.get(url: url, key: key, htttpHeaderField: header)
+        do {
+            quotes = try bundleManager.decodeJSON("quotes", fileExtension: "json")
+        } catch {
+            print(error.localizedDescription)
         }
     }
     
+    let bundleManager = BundleManager()
+    
+    #warning("ERROR: We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner")
     let header = "X-Api-Key"
     let key = "GzYkCyqhvJhHRNvZCCf1zg==nRk95G5p5th91igW"
     let url = "https://api.api-ninjas.com/v1/quotes?category=happiness"
@@ -55,10 +60,15 @@ class DayQuoteViewModel: ObservableObject {
     }
 }
 
+//struct Quote: Codable, Hashable {
+//    var quote: String
+//    var author: String
+//    var category: String
+//}
+
 struct Quote: Codable, Hashable {
     var quote: String
     var author: String
-    var category: String
 }
 
 struct DayQuote: Hashable {
@@ -66,4 +76,3 @@ struct DayQuote: Hashable {
     var quote: Quote
     var color: Color
 }
-
